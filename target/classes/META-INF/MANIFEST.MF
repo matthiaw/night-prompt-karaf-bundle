@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1558818966508
+Build-Jdk: 1.8.0_211
+Built-By: matthias.wegner
+Bundle-Activator: night.prompt.karaf.bundle.Activator
+Bundle-Description: A OSGi-Bundle for Night-Prompt
+Bundle-ManifestVersion: 2
+Bundle-Name: Night-Prompt :: Bundle
+Bundle-SymbolicName: karaf-bundle
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: night.prompt.karaf.bundle;version="0.0.1.SNAPSHOT";uses:
+ ="org.osgi.framework"
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-4.2.0.201903051501
